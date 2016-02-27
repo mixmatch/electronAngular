@@ -14,8 +14,8 @@ var oneMinute = 60 * oneSecond;
 var oneHour = 60 * oneMinute;
 var oneDay = 24 * oneHour;
 //
-listenAddr = "localhost";
-listenPort = 3000;
+var listenAddr = "localhost";
+var listenPort = 3000;
 
 //
 var expressApp = express();
@@ -48,7 +48,7 @@ app.on('ready', function () {
 	});
 
 	// mainWindow.loadUrl(`file://${__dirname}/index.html`);
-	mainWindow.loadUrl('http://' + listenAddr ':' + listenPort);
+	mainWindow.loadURL('http://' + listenAddr + ':' + listenPort);
 
 	mainWindow.on('closed', function () {
 		// deref the window
