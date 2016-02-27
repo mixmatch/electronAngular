@@ -1,0 +1,29 @@
+{
+  "name": "electronAngular",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mixmatch/electronAngular",
+  "authors": [
+    "Dan Petty <mixmatch@gmail.com>"
+  ],
+  "description": "Electron Angular Boilerplate",
+  "license": "Unlicense",
+  "ignore": [
+    "**/.*",
+    "**/*.log",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angular#1.5.0",
+    "angular-bootstrap": "*",
+    "bootstrap-css-only": "*",
+    "angular-material": "*",
+    "angular-material-icons": "*"
+  },
+  "resolutions": {
+    "angular": "1.5.0"
+  }
+}
