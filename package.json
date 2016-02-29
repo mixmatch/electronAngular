@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --prune --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+    "build": "electron-packager . electronAngular --prune --out=dist --ignore=dist --arch=x64 --platform=all --version=0.36.9"
   },
   "files": [
     "index.js",
